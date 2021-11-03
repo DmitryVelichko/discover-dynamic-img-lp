@@ -12,3 +12,9 @@
     background-position: center;
     position: relative;
 }
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
