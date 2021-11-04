@@ -59,5 +59,5 @@ button {
     backdrop-filter: blur(1px); /*10px*/
     position: absolute;
     left: 0;
-    right: 0;
+    top: 0;
 }
