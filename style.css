@@ -57,4 +57,7 @@ button {
     height: 100vh;
     background: rgba(86,86,86,0.3);
     backdrop-filter: blur(1px); /*10px*/
+    position: absolute;
+    left: 0;
+    right: 0;
 }
