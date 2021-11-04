@@ -22,3 +22,9 @@
     position: relative;
     z-index: 10;
 }
+
+.navbar .logo {
+    width: 60px;
+    margin: 30px 0;
+    cursor: pointer;
+}
