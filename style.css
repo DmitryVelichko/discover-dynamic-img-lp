@@ -94,3 +94,6 @@ button {
   font-size: 12px;
 }
 
+::placeholder {
+  color: #ccc;
+}
