@@ -83,4 +83,11 @@ button {
     line-height: 18px;
 }
 
+.info input {
+  width: 50%;
+  padding: 8px 10px;
+  outline: none;
+  border: 2px solid #fff;
+
+}
 
