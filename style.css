@@ -110,3 +110,9 @@ button {
   width: 20px;
   cursor: pointer;
 }
+
+.preview {
+  display: flex;
+  align-items: center;
+  margin: 0 60px;
+}
