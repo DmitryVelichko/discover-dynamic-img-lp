@@ -123,4 +123,9 @@ button {
   opacity: 0.4;
 }
 
-<img src="images/small1.png" class="thumbnail">
+.preview .active {
+  display: block;
+  border: 3px solid #fff;
+  width: 100px;
+  opacity: 1;
+}
