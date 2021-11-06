@@ -57,9 +57,19 @@
 
       let i = 0;
       next.onclick = function () {
-        hero.style.backgroundImage = 'url("' + backgroundImg[i + 1] + '")';
+        if (i < 4) {
+          hero.style.backgroundImage = 'url("' + backgroundImg[i + 1] + '")';
+          i++;
+        }
       };
-      console.log(hero.style);
+      let y = 4;
+      prev.onclick = function () {
+        if (y > 0) {
+          hero.style.backgroundImage = 'url("' + backgroundImg[y - 1] + '")';
+          y--;
+        }
+      };
+
     </script>
   </body>
 </html>
